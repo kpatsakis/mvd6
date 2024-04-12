@@ -1,0 +1,1 @@
+void bad() char * data ; data = NULL; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; char myString [ ] = "myString" ; data = strdup ( myString ); data = new char if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; delete data free ( data ); 

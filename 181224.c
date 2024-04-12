@@ -1,0 +1,1 @@
+static void good2() if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; char password [ PASSWORD_INPUT_SIZE ] ; char * replace ; if ( fgets ( password , PASSWORD_INPUT_SIZE , stdin ) == NULL )  replace = strchr ( password , '\n' ); if ( replace )  * replace = '\0'; 

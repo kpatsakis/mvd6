@@ -1,0 +1,1 @@
+static void goodB2G() int * data ; int * * dataPtr1 = & data ; data = NULL; int * data = * dataPtr1 ; data = ( int * ) realloc ( data , 100 * sizeof ( int ) ); data [ 0 ] = 5; printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); * dataPtr1 = data; free ( data ); 

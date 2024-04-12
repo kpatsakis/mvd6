@@ -1,0 +1,1 @@
+void bad() int64_t * data ; int64_t * dataArray [ 5 ] ; data = NULL; data = new int64_t dataArray [ 2 ] = data; badSink ( dataArray ); void badSink(int64_t * dataArray[]) int64_t * data = dataArray [ 2 ] ; free ( data ); 

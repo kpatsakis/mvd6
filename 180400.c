@@ -1,0 +1,1 @@
+void CWE758_Undefined_Behavior__char_pointer_malloc_use_12_bad() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; char * * pointer = ( char * * ) malloc ( sizeof ( char * ) ) ; char * data = * pointer ; free ( pointer ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); 

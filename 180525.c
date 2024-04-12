@@ -1,0 +1,1 @@
+static void goodB2G2() int * data ; data = NULL; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = NULL; data = ( int * ) realloc ( data , 100 * sizeof ( int ) ); if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; free ( data ); 

@@ -1,0 +1,1 @@
+static void good2() if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; twoIntsStruct * data ; twoIntsStruct * * pointer = ( twoIntsStruct * * ) malloc ( sizeof ( twoIntsStruct * ) ) ; data = ( twoIntsStruct * ) malloc ( sizeof ( twoIntsStruct ) ); data -> intOne = 5; data -> intTwo = 6; * pointer = data; free ( pointer ); 

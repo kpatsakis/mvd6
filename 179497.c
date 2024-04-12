@@ -1,0 +1,1 @@
+static void goodG2B() vector < wchar_t * > dataVector ; goodG2BSink ( dataVector ); void goodG2BSink(vector<wchar_t *> dataVector) wchar_t * data = dataVector [ 2 ] ; wchar_t source [ 10 + 1 ] = SRC_STRING ; size_t i , sourceLen ; sourceLen = wcslen ( source ); for (i = 0; i < sourceLen + 1; i++) data [ i ] = source [ i ]; free ( data ); 

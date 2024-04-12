@@ -1,0 +1,1 @@
+void CWE122_Heap_Based_Buffer_Overflow__sizeof_int64_t_21_bad() int64_t * data ; data = NULL; data = badSource ( data ); static int64_t * badSource(int64_t * data) if ( badStatic )  data = ( int64_t * ) malloc ( sizeof ( data ) ); * data = 2147483643L L return data ; free ( data ); 

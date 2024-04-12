@@ -1,0 +1,1 @@
+static void good2() if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; long * pointer = ( long * ) malloc ( sizeof ( long ) ) ; * pointer = data; long data = * pointer ; printLongLine ( data ); void printLongLine (long longNumber) printf ( "%ld\n" , longNumber ); free ( pointer ); 

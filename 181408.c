@@ -1,0 +1,1 @@
+void CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_loop_31_bad() int * data ; data = NULL; data = ( int * ) malloc ( 50 * sizeof ( int ) ); int * dataCopy = data ; int * data = dataCopy ; int source [ 100 ] = { 0 } ; size_t i ; for (i = 0; i < 100; i++) data [ i ] = source [ i ]; free ( data ); 

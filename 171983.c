@@ -1,0 +1,1 @@
+static void good1() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; int * goodInt = NULL ; goodInt = ( int * ) malloc ( sizeof ( * goodInt ) ); * goodInt = 6; int * goodInt = NULL ; goodInt = ( int * ) malloc ( sizeof ( * goodInt ) ); * goodInt = 6; free ( goodInt ); 

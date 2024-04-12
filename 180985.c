@@ -1,0 +1,1 @@
+static void goodB2G1() wchar_t * data ; data = NULL; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; wchar_t myString [ ] = L "myString" data = wcsdup ( myString ); if ( staticReturnsFalse ( ) )  static int staticReturnsFalse() return 0 ; free ( data ); 

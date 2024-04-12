@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__int_realloc_32_bad() int * data ; int * * dataPtr1 = & data ; int * * dataPtr2 = & data ; data = NULL; int * data = * dataPtr1 ; data = ( int * ) realloc ( data , 1 * sizeof ( int ) ); int * data = * dataPtr2 ; data [ 0 ] = 5; free ( data ); 

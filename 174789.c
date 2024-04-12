@@ -1,0 +1,1 @@
+void bad() int * data ; int * & dataRef = data ; int * dataBadBuffer = ( int * ) ALLOCA ( 50 * sizeof ( int ) ) ; data = dataBadBuffer; int * data = dataRef ; int source [ 100 ] = { 0 } ; memcpy ( data , source , 100 * sizeof ( int ) ); printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); 

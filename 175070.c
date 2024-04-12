@@ -1,0 +1,1 @@
+apr_size_t svn__i64toa(char *dest,apr_int64_t number) if ( number >= 0 )  return svn__ui64toa ( dest , ( ( apr_uint64_t ) number ) ) ; apr_size_t svn__ui64toa(char *dest,apr_uint64_t number) if ( number < 100 )  if ( number < 10 )  dest [ 0 ] = ( ( char ) ( 48 + number ) ); dest [ 1 ] = 0; memcpy ( dest , decimal_table [ ( apr_size_t ) number ] , 2 ); dest [ 2 ] = 0; 

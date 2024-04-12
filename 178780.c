@@ -1,0 +1,1 @@
+static void good1() int k ; for(k = 0; k < 1; k++) long * pointer = ( long * ) malloc ( sizeof ( long ) ) ; * pointer = data; long data = * pointer ; printLongLine ( data ); void printLongLine (long longNumber) printf ( "%ld\n" , longNumber ); free ( pointer ); 

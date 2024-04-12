@@ -1,0 +1,1 @@
+template <class MDefinition* bitwise(MDefinition* lhs, MDefinition* rhs) if ( inDeadCode ( ) )  inline bool inDeadCode() const return curBlock_ == nullptr ; T * ins = T :: NewAsmJS ( alloc ( ) , lhs , rhs ) ; return * alloc_ ; TempAllocator &     alloc() const curBlock_ -> add ( ins ); return ins ; 

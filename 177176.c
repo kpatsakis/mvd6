@@ -1,0 +1,1 @@
+void bad() size_t data ; data = rand ( ); baseObject -> action ( data ); void CWE789_Uncontrolled_Mem_Alloc__new_char_rand_82_bad::action(size_t data) if ( data > strlen ( HELLO_STRING ) )  myString = new char [ data ]; strcpy ( myString , HELLO_STRING ); printLine ( myString ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); delete [ ] myString 

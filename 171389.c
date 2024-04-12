@@ -1,0 +1,1 @@
+static void goodB2G() int64_t * data ; map < int , int64_t * > dataMap ; data = NULL; data = ( int64_t * ) malloc ( 1 * sizeof ( int64_t ) ); dataMap [ 0 ] = data; dataMap [ 1 ] = data; dataMap [ 2 ] = data; goodB2GSink ( dataMap ); void goodB2GSink(map<int, int64_t *> dataMap) int64_t * data = dataMap [ 2 ] ; if ( data != NULL )  data [ 0 ] = 5L L free ( data ); 

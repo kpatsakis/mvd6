@@ -1,0 +1,1 @@
+void CWE122_Heap_Based_Buffer_Overflow__sizeof_double_08_bad() double * data ; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = ( double * ) malloc ( sizeof ( data ) ); * data = 1.7E300; printDoubleLine ( * data ); void printDoubleLine(double doubleNumber) printf ( "%g\n" , doubleNumber ); free ( data ); 

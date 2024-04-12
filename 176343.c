@@ -1,0 +1,1 @@
+void CWE416_Use_After_Free__malloc_free_int_11_bad() int * data ; data = NULL; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = ( int * ) malloc ( 100 * sizeof ( int ) ); size_t i ; for(i = 0; i < 100; i++) data [ i ] = 5; free ( data ); 

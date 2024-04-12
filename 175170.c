@@ -1,0 +1,1 @@
+static void goodB2G() int * data ; data = ( int * ) malloc ( 100 * sizeof ( int ) ); data [ 0 ] = 5; printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); myUnion . unionFirst = data; int * data = myUnion . unionSecond ; free ( data ); 

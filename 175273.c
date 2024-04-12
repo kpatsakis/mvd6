@@ -1,0 +1,1 @@
+void CWE675_Duplicate_Operations_on_Resource__freopen_08_bad() FILE * data ; data = NULL; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = freopen ( "BadSource_freopen.txt" , "w+" , stdin ); if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; fclose ( data ); 
